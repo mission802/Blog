@@ -202,11 +202,11 @@ PAGE_NUM = 5
 
 # email配置
 # 如果想要支持ssl (比如qq邮箱) 见 https://github.com/bancek/django-smtp-ssl
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.163.com'                       # SMTP地址 例如: smtp.163.com
-EMAIL_PORT = 25                       # SMTP端口 例如: 25
-EMAIL_HOST_USER = 'atompi@163.com'                  # 我自己的邮箱 例如: xxxxxx@163.com
-EMAIL_HOST_PASSWORD = 'Atompi2920'              # 我的邮箱密码 例如  xxxxxxxxx
+EMAIL_BACKEND = 'django_smtp_ssl.SSLEmailBackend'
+EMAIL_HOST = 'smtp.qq.com'                       # SMTP地址 例如: smtp.163.com
+EMAIL_PORT = 465                       # SMTP端口 例如: 25
+EMAIL_HOST_USER = 'atompi@foxmail.com'                  # 我自己的邮箱 例如: xxxxxx@163.com
+EMAIL_HOST_PASSWORD = 'ozxylfwuurfdbcaa'              # 我的邮箱密码 例如  xxxxxxxxx
 EMAIL_SUBJECT_PREFIX = u'atom'       # 为邮件Subject-line前缀,默认是'[django]'
 EMAIL_USE_TLS = True                  # 与SMTP服务器通信时，是否启动TLS链接(安全链接)。默认是false
 
