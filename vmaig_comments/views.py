@@ -81,7 +81,7 @@ class CommentControl(View):
         try:
             img = comment.user.img
         except Exception as e:
-            img = "http://vmaig.qiniudn.com/image/tx/tx-default.jpg"
+            img = "https://atompi.com/static/img/favicon.ico"
 
         print_comment = u"<p>评论：{}</p>".format(text)
         if parent:
