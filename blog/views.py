@@ -243,7 +243,7 @@ class UserView(BaseMixin, TemplateView):
     def get(self, request, *args, **kwargs):
 
         if not request.user.is_authenticated():
-            logger.error(u'[UserView]用户未登陆')
+            logger.error(u'[UserView]用户未登录')
             return render(request, 'blog/login.html')
 
         slug = self.kwargs.get('slug')

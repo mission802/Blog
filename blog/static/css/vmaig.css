@@ -409,7 +409,7 @@ footer {
 
 /**************************/
 
-/*首页右侧登陆界面样式*/
+/*首页右侧登录界面样式*/
 .login-form{
     padding:30px 20px;
 }
@@ -561,7 +561,7 @@ footer {
 
 /***********************/
 
-/*nav中注册登陆*/
+/*nav中注册登录*/
 #register-modal .alert{
    margin:15px; 
    padding:10px;

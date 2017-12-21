@@ -29,7 +29,7 @@ class CommentControl(View):
                     user.username
                 )
             )
-            return HttpResponse(u"请登陆！", status=403)
+            return HttpResponse(u"请登录！", status=403)
 
         en_title = self.kwargs.get('slug', '')
         try:
